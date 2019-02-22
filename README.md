@@ -1,7 +1,10 @@
 # A Benchmarking Framework for Systematic Evaluation of Robotic Pick-and-Place Systems in an Industrial Grocery Setting
 
-This repository contains information about a benchmarking framework for a pick-and-place task developed within the SoMa project and inspired from the Ocado use case of picking fruits and
-vegetables in an industrial setting.
+This repository accompanies our paper: *A Benchmarking Framework for Systematic Evaluation of Robotic Pick-and-Place Systems in an Industrial Grocery Setting*. More specifically, it contains the following information:
+
+* Description of how to replicate the environment in which the proposed benchmark is performed.
+* Information and materials pertaining to the object set of the benchmark.
+* Detailed instructions on how to perform the benchmark in a repeatable fashion, thus guaranteeing the repeatability of results.
 
 If you use our framework, please cite our work:
 
