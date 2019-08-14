@@ -10,7 +10,7 @@ This repository accompanies our paper: *Benchmarking Pick-and-Place Robotic Syst
 
 The experimental setup consists of a storage and a delivery container and the objects to be manipulated. The containers must have an opening of exactly 60 x 40 cm (L x W) and a minimum height of 15 cm. For example, in our experiments we used a 60 x  40 x 18.4 cm Green Plus 6416 IFCO container for storage and a 60 x 40 x 36 cm custom-made container for delivery.
 
-TThe positioning of the robot and containers in the setup is free, and can vary between systems, as it highly depends on the reachability of the robotic arm and the available workspace. The selected pose of the storage and delivery containers must be fixed with respect to a static coordinate frame, and must be included in the assessment report.
+The positioning of the robot and containers in the setup is free, and can vary between systems, as it highly depends on the reachability of the robotic arm and the available workspace. The selected pose of the storage and delivery containers must be fixed with respect to a static coordinate frame, and must be included in the assessment report.
 
 ## Object set
 
@@ -41,19 +41,22 @@ netbags are usually clipped in two places. Releasing one of the clips with a pai
 As far as the loose leaf salad bags are concerned, they have an approximate size of 17 x 17 cm and weigh around 220 g. If one can't find an airtight plastic bag of that size, then one can build it
 by cutting and heat-sealing plastic sheets. The bags should be filled with shredded paper and one should try to keep as much air in them as possible.
 
-One must attach non-transparent labels on netbags and salad bags. More information is provided below:
+Plastic sheets to seal the punnets are widely available.
+
+One must attach non-transparent labels on netbags, punnets and salad bags. More information is provided below:
 
 | Object | Label shape | Label dimensions | Label position |
 | ------------- | ------------- | ------------- |------------- |
 | Netbag of Limes | Ellipsoid | 3 x 5 cm | Clipped on the netbag |
 | Salad bag | Rectangular | 16 x 8 cm | Left side of the salad bag |
+| Punnet of berries | Rectangular | 10 x 7 cm | Top surface of the punnet|
 
 Finally, the original object set could also be lent to research groups interested in running the benchmark. Please contact us for more information.
 
 ## Definition of scenarios
 
 We introduce 15 predefined scenarios that that specify the objects' initial poses within the storage container.
-The scenarios span different levels of clutter and test various conditions of inter-object and object-environment positioning. Accurate and repeatable positioning of the objects can be performed using [the images of the scenarios](images/Scenario_images/) as a guideline.
+The scenarios span different levels of clutter and test various conditions of inter-object and object-environment positioning. Accurate and repeatable positioning of the objects can be performed using [the images of the scenarios](images/Scenario_images/scenarios.png) as a guideline.
 In most of the scenarios, a very high level of placement accuracy can be achieved by exploiting the storage container's geometric features (e.g. aligning objects with walls, etc.).
 
 
