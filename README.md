@@ -57,8 +57,8 @@ Finally, the original object set could also be lent to research groups intereste
 
 We introduce 15 predefined scenarios that that specify the objects' initial poses within the storage container.
 The scenarios span different levels of clutter and test various conditions of inter-object and object-environment positioning. Accurate and repeatable positioning of the objects can be performed using [the images of the scenarios](images/Scenario_images/scenarios.png) as a guideline.
-In most of the scenarios, a very high level of placement accuracy can be achieved by exploiting the storage container's geometric features (e.g. aligning objects with walls, etc.).
-
+In most of the scenarios, a very high level of placement accuracy can be achieved by exploiting the storage container's geometric features (e.g. aligning objects with walls, etc.). For each scenario, we define a timeout in an effort to have a finite number of task executions per experiment (e.g. in the case where the system can't grasp any of the objects left in the 
+storage container). This timeout is set at (initial number of objects in the storage container) x 150s. Obviously a production-ready system should be able to finish the task long before such a large timeout is exceeded.
 
 ## Contact
 
